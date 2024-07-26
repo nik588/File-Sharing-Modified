@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7096809834:AAEhvqWtBXMqjMhWbYFPOAMywtEwS9gQ15E")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7295673972:AAGDzp6uBJzCZgoXr9L1I7bSkENXWXDiMGY")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22867431"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "22867431"))
 API_HASH = os.environ.get("API_HASH", "24ef0e76ceb137563dc33722e4cd79bd")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002014899669"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121888464"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
@@ -37,8 +37,8 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002032097452"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/36a387d7f4b0470a1fbe4.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/36a387d7f4b0470a1fbe4.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/f803e098ad3a03f542908.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/9550032a25a44b61ac017.jpg")
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animes_Station\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/living_being_bot>अजनबी</a></b>"
 
