@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7173956368:AAFoV4ryS1WoTuX3OVPocbN7C7L3Q_2Ey_w")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7295673972:AAEyECqsiY1z9zzioBK9wh-eraj_W2pZciU")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "28257714"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "28257714"))
 API_HASH = os.environ.get("API_HASH", "698420b277440b6d1bea540b301a33ce")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002131770266"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121888464"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://niksharma92297:asta@cluster0.qdwjsh5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itsintrovert07:sanemibot@cluster0.zd1nrbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sahil")
 
 #force sub channel id, if you want enable force sub
@@ -37,8 +37,8 @@ FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002032097452"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/462c551e21843243f0b7f.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph//file/534e3af97691f06fa82f5.jpg")
+START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/f803e098ad3a03f542908.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/9550032a25a44b61ac017.jpg")
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animes_Station\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/living_being_bot>अजनबी</a></b>"
 
